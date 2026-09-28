@@ -1,0 +1,7 @@
+{
+  "model": "neohorse-1-9b",
+  "parts": 2,
+  "content_chars": 53884,
+  "reasoning_chars": 23854,
+  "thinking": true
+}

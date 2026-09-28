@@ -1,0 +1,10 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+______________________________ test_shipping_fee ______________________________
+artifacts\shipping_fee_neohorse\test_shipping_fee.py:11: in test_shipping_fee
+    assert shipping_fee(15.0, "local", False) == 22.0
+E   AssertionError: assert 18.0 == 22.0
+E    +  where 18.0 = shipping_fee(15.0, 'local', False)
+=========================== short test summary info ===========================
+FAILED artifacts/shipping_fee_neohorse/test_shipping_fee.py::test_shipping_fee
+1 failed in 0.09s

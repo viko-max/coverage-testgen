@@ -1,0 +1,25 @@
+..F.....FF.F........FFF..                                                [100%]
+================================== FAILURES ===================================
+E   Failed: DID NOT RAISE JournalEntryInvalidException
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\generated_tests.py:392: Failed: DID NOT RAISE JournalEntryInvalidException
+E   generated_tests.ExchangeRateMissingException: 没有币种 CNY 的汇率
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\generated_tests.py:176: generated_tests.ExchangeRateMissingException: 没有币种 CNY 的汇率
+E   generated_tests.ExchangeRateMissingException: 没有币种 CNY 的汇率
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\generated_tests.py:176: generated_tests.ExchangeRateMissingException: 没有币种 CNY 的汇率
+E   generated_tests.PeriodClosedForNormalEntryException: 期间 2025-01 已关闭
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\generated_tests.py:224: generated_tests.PeriodClosedForNormalEntryException: 期间 2025-01 已关闭
+E   generated_tests.JournalEntryInvalidException: 分录借贷不平
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\generated_tests.py:214: generated_tests.JournalEntryInvalidException: 分录借贷不平
+E   generated_tests.UnknownCurrencyException: 未知币种：XXX
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\generated_tests.py:221: generated_tests.UnknownCurrencyException: 未知币种：XXX
+E   generated_tests.ExchangeRateMissingException: 没有币种 CNY 的汇率
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\generated_tests.py:176: generated_tests.ExchangeRateMissingException: 没有币种 CNY 的汇率
+=========================== short test summary info ===========================
+FAILED artifacts/neohorse_probe/generated_tests.py::test_03_借贷不平抛出异常
+FAILED artifacts/neohorse_probe/generated_tests.py::test_09_部分结清剩余金额
+FAILED artifacts/neohorse_probe/generated_tests.py::test_010_全额结清完成标记
+FAILED artifacts/neohorse_probe/generated_tests.py::test_012_关账前普通入账成功
+FAILED artifacts/neohorse_probe/generated_tests.py::test_021_草稿状态不能添加分录行
+FAILED artifacts/neohorse_probe/generated_tests.py::test_022_未知币种在结算时也检测
+FAILED artifacts/neohorse_probe/generated_tests.py::test_023_多币种混合入账与结算
+7 failed, 18 passed in 0.03s

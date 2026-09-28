@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>pytest 输出</title>
+<style>
+  html, body { margin: 0; background: #F7F5F1; width: 610px; }
+  .frame {
+    width: 610px; box-sizing: border-box;
+    background: #F7F5F1; color: #1A1A1A;
+    font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+    padding: 14px 16px 16px;
+  }
+  h1 { font-size: 20px; margin: 0; font-weight: 650; }
+  .meta { color: #5C6570; font-size: 12px; margin-top: 2px; }
+  .rule { height: 1px; background: #E2DDD4; margin: 8px 0 10px; }
+</style>
+</head>
+<body><div class="frame">
+    <h1>pytest 输出</h1>
+    <div class="meta">shipping_fee · feedback · 4 轮全部通过</div>
+    <div class="rule"></div>
+    <div class="term"><div class="run">
+              <div class="rh">round 0 · 语句 62.5% · 分支 40.0%</div>
+              <pre>1 passed in 0.04s</pre>
+            </div><div class="run">
+              <div class="rh">round 1 · 语句 87.5% · 分支 80.0%</div>
+              <pre>2 passed in 0.04s</pre>
+            </div><div class="run">
+              <div class="rh">round 2 · 语句 93.8% · 分支 90.0%</div>
+              <pre>3 passed in 0.05s</pre>
+            </div><div class="run">
+              <div class="rh">round 3 · 语句 100.0% · 分支 100.0%</div>
+              <pre>4 passed in 0.05s</pre>
+            </div></div>
+    <style>
+      .term { background: #1B1E23; color: #E8E4DC; padding: 10px 12px; }
+      .run { margin-bottom: 8px; }
+      .rh { color: #8FCBB2; font-size: 13px; }
+      pre { margin: 0; font-family: Consolas, monospace; font-size: 13px; white-space: pre-wrap; }
+    </style>
+    </div></body>
+</html>

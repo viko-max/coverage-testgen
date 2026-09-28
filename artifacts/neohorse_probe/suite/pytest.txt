@@ -1,0 +1,299 @@
+EEEEEEEEEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFF                     [100%]
+=================================== ERRORS ====================================
+_______ ERROR at setup of test_b13_usd_100_on_jan15_converts_to_723_45 ________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 61
+  def test_b13_usd_100_on_jan15_converts_to_723_45(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:61
+_______ ERROR at setup of test_b14_usd_100_on_jan20_converts_to_725_00 ________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 87
+  def test_b14_usd_100_on_jan20_converts_to_725_00(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:87
+____________ ERROR at setup of test_b15_eur_50_converts_to_390_06 _____________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 114
+  def test_b15_eur_50_converts_to_390_06(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:114
+___________ ERROR at setup of test_b16_jpy_10000_converts_to_482_00 ___________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 140
+  def test_b16_jpy_10000_converts_to_482_00(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:140
+_ ERROR at setup of test_b17_missing_gbp_rate_throws_unknown_currency_exception _
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 170
+  def test_b17_missing_gbp_rate_throws_unknown_currency_exception(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:170
+_ ERROR at setup of test_b18_posting_unknown_currency_throws_unknown_currency_exception _
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 213
+  def test_b18_posting_unknown_currency_throws_unknown_currency_exception(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:213
+_ ERROR at setup of test_b19_local_currency_conversion_stays_as_original_amount _
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 256
+  def test_b19_local_currency_conversion_stays_as_original_amount(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:256
+_ ERROR at setup of test_b20_rate_takes_earliest_rate_before_or_on_transaction_date _
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 287
+  def test_b20_rate_takes_earliest_rate_before_or_on_transaction_date(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:287
+_________ ERROR at setup of test_b21_jan9_no_earlier_rate_uses_jan10 __________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 327
+  def test_b21_jan9_no_earlier_rate_uses_jan10(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:327
+______ ERROR at setup of test_b22_three_currency_mixed_but_local_balance ______
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 367
+  def test_b22_three_currency_mixed_but_local_balance(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:367
+_______ ERROR at setup of test_b23_after_posting_status_becomes_posted ________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 439
+  def test_b23_after_posting_status_becomes_posted(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:439
+________ ERROR at setup of test_b24_posted_by_is_written_after_posting ________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 482
+  def test_b24_posted_by_is_written_after_posting(fx_setup):
+E       fixture 'fx_setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:482
+_________________________ ERROR at setup of test_b25 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 535
+  def test_b25(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:535
+_________________________ ERROR at setup of test_b26 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 578
+  def test_b26(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:578
+_________________________ ERROR at setup of test_b27 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 614
+  def test_b27(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:614
+_________________________ ERROR at setup of test_b28 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 653
+  def test_b28(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:653
+_________________________ ERROR at setup of test_b29 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 697
+  def test_b29(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:697
+_________________________ ERROR at setup of test_b30 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 745
+  def test_b30(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:745
+_________________________ ERROR at setup of test_b31 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 794
+  def test_b31(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:794
+_________________________ ERROR at setup of test_b33 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 835
+  def test_b33(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:835
+_________________________ ERROR at setup of test_b34 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 860
+  def test_b34(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:860
+_________________________ ERROR at setup of test_b35 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 894
+  def test_b35(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:894
+_________________________ ERROR at setup of test_b36 __________________________
+file C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py, line 927
+  def test_b36(ledger):
+E       fixture 'ledger' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:927
+================================== FAILURES ===================================
+E   NameError: name 'create_journal_entry' is not defined
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:966: NameError: name 'create_journal_entry' is not defined
+E   TypeError: balanced_entry() missing 2 required positional arguments: 'period_key' and 'lines'
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:996: TypeError: balanced_entry() missing 2 required positional arguments: 'period_key' and 'lines'
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1018: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1056: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1095: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1138: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1179: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1219: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1255: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1293: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1327: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1362: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1413: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1459: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1509: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1553: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1596: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1642: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1679: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1733: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1785: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1832: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1870: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1919: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:1972: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:2033: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:2081: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:2135: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+E   ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+C:\Users\14698\Desktop\作业\artifacts\neohorse_probe\suite\test_ledger_scenarios.py:2183: ImportError: cannot import name 'Ledger' from 'subjects.ledger' (C:\Users\14698\Desktop\作业\src\subjects\ledger.py). Did you mean: 'ledger'?
+=========================== short test summary info ===========================
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b40_write_off_two_consecutive_entries_separately
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b58_three_consecutive_entries_debit_total
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b02_duplicate_period_registration
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b04_date_before_period
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b06_same_currency_two_rows_balanced
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b07_three_rows_balanced_two_debits_one_credit
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b08_unbalanced_entries
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b09_empty_entry_posting
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b10_same_account_same_side_duplicate
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b11_duplicate_line_number
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b12_cant_add_line_after_posting
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b37_rounding_difference_positive_credits_side
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b39_fx_variance_account_6900_auto_registered
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b40_write_off_journal_entry_two_consecutive_entries_separately
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b41_january_closing_does_not_affect_query_of_posted_entries
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b42_get_lines_by_direction_debit_credit_separated
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b43_remove_line_then_rebalance
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b44_remove_nonexistent_line_number
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b45_batch_validate_entries_collect_unbalanced_entries
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b46_batch_validate_entries_collect_unknown_currency_entries
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b47_direction_illegal_string
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b48_register_march_period_then_create_entry_with_march_date
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b49_export_sales_2000usd_full_settlement
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b50_import_800eur_partial_settlement
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b51_same_day_two_entries_post_and_write_off
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b53_jpy_small_rounding_difference
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b54_cash_bank_reversal_then_revenue_confirmation
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b55_four_line_entry_two_debits_two_credits
+FAILED artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b56_validate_settlement_limit_boundary_equal
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b13_usd_100_on_jan15_converts_to_723_45
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b14_usd_100_on_jan20_converts_to_725_00
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b15_eur_50_converts_to_390_06
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b16_jpy_10000_converts_to_482_00
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b17_missing_gbp_rate_throws_unknown_currency_exception
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b18_posting_unknown_currency_throws_unknown_currency_exception
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b19_local_currency_conversion_stays_as_original_amount
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b20_rate_takes_earliest_rate_before_or_on_transaction_date
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b21_jan9_no_earlier_rate_uses_jan10
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b22_three_currency_mixed_but_local_balance
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b23_after_posting_status_becomes_posted
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b24_posted_by_is_written_after_posting
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b25
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b26
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b27
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b28
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b29
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b30
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b31
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b33
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b34
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b35
+ERROR artifacts/neohorse_probe/suite/test_ledger_scenarios.py::test_b36
+29 failed, 23 errors in 0.24s

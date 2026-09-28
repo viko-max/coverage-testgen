@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>NeoHorse 验证</title>
+<style>
+  html, body { margin: 0; background: #F7F5F1; width: 610px; }
+  .frame { width: 610px; box-sizing: border-box; padding: 14px 16px 16px; font-family: "Microsoft YaHei", sans-serif; color: #1A1A1A; }
+  h1 { font-size: 20px; margin: 0; }
+  .meta { color: #5C6570; font-size: 12px; margin-top: 3px; }
+  .rule { height: 1px; background: #E2DDD4; margin: 8px 0 10px; }
+  .cards { display: flex; gap: 8px; }
+  .card { flex: 1; background: white; border: 1px solid #E2DDD4; padding: 8px 10px; }
+  .k { color: #5C6570; font-size: 12px; }
+  .v { font-size: 18px; font-weight: 700; margin: 2px 0; }
+  .s { font-size: 12px; }
+  pre { margin: 8px 0 0; background: #1B1E23; color: #E8E4DC; padding: 10px 12px; font-family: Consolas, monospace; font-size: 12px; line-height: 1.35; white-space: pre-wrap; }
+  .think { margin-top: 8px; background: white; border: 1px solid #E2DDD4; padding: 8px 10px; font-size: 12px; line-height: 1.4; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <h1>NeoHorse-1-9B 调用验证</h1>
+  <div class="meta">tokenrhythm.studio/v1 · 模型 neohorse-1-9b · 思考默认开启 · 密钥未写入页面</div>
+  <div class="rule"></div>
+  <div class="cards">
+    <div class="card"><div class="k">推理</div><div class="v">23854 字</div><div class="s">reasoning_content 有内容</div></div>
+    <div class="card"><div class="k">正文</div><div class="v">53884 字</div><div class="s">实现 + 25 个测试</div></div>
+    <div class="card"><div class="k">pytest</div><div class="v">18 通过</div><div class="s">7 失败 · 共 25 条</div></div>
+  </div>
+  <pre>models_status=200  horse=['neohorse-1-9b']
+part1  reasoning=17206  content=26715
+part2  reasoning=6648   content=27169
+pytest  7 failed, 18 passed, 25 tests, 724 lines
+
+项目闭环 shipping_fee 第 1 轮
+语句 93.8%  分支 90.0%
+失败点：shipping_fee(15, local, False) 期望 22，实际 18</pre>
+  <div class="think">推理摘录：用户要求实现完整可运行的多币种复式分录结算器，包含同币种入账、跨币种折算、红字冲销、部分结清、汇兑损益和关账后只允许调整分录。</div>
+</div>
+</body>
+</html>

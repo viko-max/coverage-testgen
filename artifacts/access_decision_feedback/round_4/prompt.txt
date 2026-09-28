@@ -1,0 +1,57 @@
+你是 pytest 单元测试生成器。只输出新增测试函数，不要解释，不要重复已有用例。
+断言必须可执行。异常路径使用 pytest.raises。
+
+被测模块：subjects.access_control
+被测函数：access_decision
+当前轮次：4
+
+被测源代码：
+```python
+def access_decision(role: str, hour: int, emergency: bool) -> str:
+    """Decide whether a role may enter at the given hour.
+
+    Admin is always allowed. Staff may enter during an emergency, or during
+    office hours without one. Guests get limited access in a shorter window.
+    """
+    if hour < 0 or hour > 23:
+        raise ValueError("hour out of range")
+    if role == "admin":
+        return "allow"
+    if emergency:
+        if role == "staff":
+            return "allow"
+        return "deny"
+    if role == "staff" and hour >= 9 and hour <= 18:
+        return "allow"
+    if role == "guest" and hour >= 10 and hour <= 16:
+        return "limited"
+    return "deny"
+```
+
+已有测试：
+```python
+def test_iter0_1_access_decision():
+    assert access_decision('admin', 0, False) == 'allow'
+
+def test_iter1_1_access_decision():
+    assert access_decision('guest', 10, False) == 'limited'
+
+def test_iter2_1_access_decision():
+    assert access_decision('staff', 0, True) == 'allow'
+
+def test_iter3_1_access_decision():
+    with pytest.raises(ValueError):
+        access_decision('other', -1, False)
+```
+
+覆盖率反馈：请只针对下面尚未覆盖的路径补充测试。
+当前语句覆盖率：78.6%
+当前分支覆盖率：75.0%
+未覆盖语句：
+- L14: return "deny"
+- L16: return "allow"
+- L19: return "deny"
+未覆盖分支（源行 -> 未走到的目标行）：
+- L12 -> L14
+- L15 -> L16
+- L17 -> L19

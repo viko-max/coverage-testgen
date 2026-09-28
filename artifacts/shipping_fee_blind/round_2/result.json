@@ -1,0 +1,31 @@
+{
+  "iteration": 2,
+  "test_count": 3,
+  "statement_percent": 75.0,
+  "branch_percent": 60.0,
+  "missing_lines": [
+    11,
+    12,
+    14,
+    16
+  ],
+  "missing_branches": [
+    [
+      9,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      15,
+      16
+    ]
+  ],
+  "pytest_passed": true
+}

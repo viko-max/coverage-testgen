@@ -1,0 +1,8 @@
+{
+  "code": "UNKNOWN_FIELD",
+  "message": "未知请求字段：chat_template_kwargs",
+  "data": {
+    "field": "chat_template_kwargs"
+  },
+  "traceId": "trace_4b1b36ad-6cfe-4368-b435-6683e91d251d"
+}

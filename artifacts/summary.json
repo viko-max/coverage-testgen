@@ -1,0 +1,876 @@
+{
+  "provider": "mock",
+  "live_api": false,
+  "subjects": [
+    {
+      "module": "subjects.shipping",
+      "function": "shipping_fee",
+      "title": "运费计算",
+      "modes": {
+        "feedback": [
+          {
+            "iteration": 0,
+            "test_count": 1,
+            "new_tests": 1,
+            "statement_percent": 62.5,
+            "branch_percent": 40.0,
+            "missing_lines": [
+              8,
+              11,
+              12,
+              14,
+              16,
+              21
+            ],
+            "missing_branches": [
+              [
+                7,
+                8
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                20,
+                21
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".                                                                        [100%]\n1 passed in 0.04s"
+          },
+          {
+            "iteration": 1,
+            "test_count": 2,
+            "new_tests": 1,
+            "statement_percent": 87.5,
+            "branch_percent": 80.0,
+            "missing_lines": [
+              8,
+              14
+            ],
+            "missing_branches": [
+              [
+                7,
+                8
+              ],
+              [
+                11,
+                14
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "..                                                                       [100%]\n2 passed in 0.04s"
+          },
+          {
+            "iteration": 2,
+            "test_count": 3,
+            "new_tests": 1,
+            "statement_percent": 93.8,
+            "branch_percent": 90.0,
+            "missing_lines": [
+              14
+            ],
+            "missing_branches": [
+              [
+                11,
+                14
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "...                                                                      [100%]\n3 passed in 0.05s"
+          },
+          {
+            "iteration": 3,
+            "test_count": 4,
+            "new_tests": 1,
+            "statement_percent": 100.0,
+            "branch_percent": 100.0,
+            "missing_lines": [],
+            "missing_branches": [],
+            "pytest_passed": true,
+            "pytest_output": "....                                                                     [100%]\n4 passed in 0.05s"
+          }
+        ],
+        "blind": [
+          {
+            "iteration": 0,
+            "test_count": 1,
+            "new_tests": 1,
+            "statement_percent": 62.5,
+            "branch_percent": 40.0,
+            "missing_lines": [
+              8,
+              11,
+              12,
+              14,
+              16,
+              21
+            ],
+            "missing_branches": [
+              [
+                7,
+                8
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                20,
+                21
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".                                                                        [100%]\n1 passed in 0.02s"
+          },
+          {
+            "iteration": 1,
+            "test_count": 2,
+            "new_tests": 1,
+            "statement_percent": 68.8,
+            "branch_percent": 50.0,
+            "missing_lines": [
+              11,
+              12,
+              14,
+              16,
+              21
+            ],
+            "missing_branches": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                20,
+                21
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "..                                                                       [100%]\n2 passed in 0.04s"
+          },
+          {
+            "iteration": 2,
+            "test_count": 3,
+            "new_tests": 1,
+            "statement_percent": 75.0,
+            "branch_percent": 60.0,
+            "missing_lines": [
+              11,
+              12,
+              14,
+              16
+            ],
+            "missing_branches": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                15,
+                16
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "...                                                                      [100%]\n3 passed in 0.04s"
+          },
+          {
+            "iteration": 3,
+            "test_count": 4,
+            "new_tests": 1,
+            "statement_percent": 81.2,
+            "branch_percent": 70.0,
+            "missing_lines": [
+              11,
+              12,
+              14
+            ],
+            "missing_branches": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "....                                                                     [100%]\n4 passed in 0.05s"
+          },
+          {
+            "iteration": 4,
+            "test_count": 5,
+            "new_tests": 1,
+            "statement_percent": 81.2,
+            "branch_percent": 70.0,
+            "missing_lines": [
+              11,
+              12,
+              14
+            ],
+            "missing_branches": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".....                                                                    [100%]\n5 passed in 0.04s"
+          },
+          {
+            "iteration": 5,
+            "test_count": 6,
+            "new_tests": 1,
+            "statement_percent": 93.8,
+            "branch_percent": 90.0,
+            "missing_lines": [
+              14
+            ],
+            "missing_branches": [
+              [
+                11,
+                14
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "......                                                                   [100%]\n6 passed in 0.04s"
+          },
+          {
+            "iteration": 6,
+            "test_count": 7,
+            "new_tests": 1,
+            "statement_percent": 93.8,
+            "branch_percent": 90.0,
+            "missing_lines": [
+              14
+            ],
+            "missing_branches": [
+              [
+                11,
+                14
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".......                                                                  [100%]\n7 passed in 0.06s"
+          },
+          {
+            "iteration": 7,
+            "test_count": 8,
+            "new_tests": 1,
+            "statement_percent": 100.0,
+            "branch_percent": 100.0,
+            "missing_lines": [],
+            "missing_branches": [],
+            "pytest_passed": true,
+            "pytest_output": "........                                                                 [100%]\n8 passed in 0.05s"
+          }
+        ]
+      }
+    },
+    {
+      "module": "subjects.access_control",
+      "function": "access_decision",
+      "title": "门禁判定",
+      "modes": {
+        "feedback": [
+          {
+            "iteration": 0,
+            "test_count": 1,
+            "new_tests": 1,
+            "statement_percent": 28.6,
+            "branch_percent": 16.7,
+            "missing_lines": [
+              8,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "missing_branches": [
+              [
+                7,
+                8
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                17,
+                18
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".                                                                        [100%]\n1 passed in 0.04s"
+          },
+          {
+            "iteration": 1,
+            "test_count": 2,
+            "new_tests": 1,
+            "statement_percent": 57.1,
+            "branch_percent": 50.0,
+            "missing_lines": [
+              8,
+              12,
+              13,
+              14,
+              16,
+              19
+            ],
+            "missing_branches": [
+              [
+                7,
+                8
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "..                                                                       [100%]\n2 passed in 0.04s"
+          },
+          {
+            "iteration": 2,
+            "test_count": 3,
+            "new_tests": 1,
+            "statement_percent": 71.4,
+            "branch_percent": 66.7,
+            "missing_lines": [
+              8,
+              14,
+              16,
+              19
+            ],
+            "missing_branches": [
+              [
+                7,
+                8
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "...                                                                      [100%]\n3 passed in 0.04s"
+          },
+          {
+            "iteration": 3,
+            "test_count": 4,
+            "new_tests": 1,
+            "statement_percent": 78.6,
+            "branch_percent": 75.0,
+            "missing_lines": [
+              14,
+              16,
+              19
+            ],
+            "missing_branches": [
+              [
+                12,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "....                                                                     [100%]\n4 passed in 0.05s"
+          },
+          {
+            "iteration": 4,
+            "test_count": 5,
+            "new_tests": 1,
+            "statement_percent": 85.7,
+            "branch_percent": 83.3,
+            "missing_lines": [
+              16,
+              19
+            ],
+            "missing_branches": [
+              [
+                15,
+                16
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".....                                                                    [100%]\n5 passed in 0.04s"
+          },
+          {
+            "iteration": 5,
+            "test_count": 6,
+            "new_tests": 1,
+            "statement_percent": 92.9,
+            "branch_percent": 91.7,
+            "missing_lines": [
+              19
+            ],
+            "missing_branches": [
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "......                                                                   [100%]\n6 passed in 0.05s"
+          },
+          {
+            "iteration": 6,
+            "test_count": 7,
+            "new_tests": 1,
+            "statement_percent": 100.0,
+            "branch_percent": 100.0,
+            "missing_lines": [],
+            "missing_branches": [],
+            "pytest_passed": true,
+            "pytest_output": ".......                                                                  [100%]\n7 passed in 0.05s"
+          }
+        ],
+        "blind": [
+          {
+            "iteration": 0,
+            "test_count": 1,
+            "new_tests": 1,
+            "statement_percent": 28.6,
+            "branch_percent": 16.7,
+            "missing_lines": [
+              8,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "missing_branches": [
+              [
+                7,
+                8
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                17,
+                18
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".                                                                        [100%]\n1 passed in 0.02s"
+          },
+          {
+            "iteration": 1,
+            "test_count": 2,
+            "new_tests": 1,
+            "statement_percent": 35.7,
+            "branch_percent": 25.0,
+            "missing_lines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "missing_branches": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                17,
+                18
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "..                                                                       [100%]\n2 passed in 0.04s"
+          },
+          {
+            "iteration": 2,
+            "test_count": 3,
+            "new_tests": 1,
+            "statement_percent": 35.7,
+            "branch_percent": 25.0,
+            "missing_lines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "missing_branches": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                17,
+                18
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "...                                                                      [100%]\n3 passed in 0.04s"
+          },
+          {
+            "iteration": 3,
+            "test_count": 4,
+            "new_tests": 1,
+            "statement_percent": 57.1,
+            "branch_percent": 50.0,
+            "missing_lines": [
+              13,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "missing_branches": [
+              [
+                11,
+                15
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                17,
+                18
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "....                                                                     [100%]\n4 passed in 0.04s"
+          },
+          {
+            "iteration": 4,
+            "test_count": 5,
+            "new_tests": 1,
+            "statement_percent": 64.3,
+            "branch_percent": 58.3,
+            "missing_lines": [
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "missing_branches": [
+              [
+                11,
+                15
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                17,
+                18
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".....                                                                    [100%]\n5 passed in 0.05s"
+          },
+          {
+            "iteration": 5,
+            "test_count": 6,
+            "new_tests": 1,
+            "statement_percent": 78.6,
+            "branch_percent": 75.0,
+            "missing_lines": [
+              17,
+              18,
+              19
+            ],
+            "missing_branches": [
+              [
+                15,
+                17
+              ],
+              [
+                17,
+                18
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": "......                                                                   [100%]\n6 passed in 0.04s"
+          },
+          {
+            "iteration": 6,
+            "test_count": 7,
+            "new_tests": 1,
+            "statement_percent": 92.9,
+            "branch_percent": 91.7,
+            "missing_lines": [
+              19
+            ],
+            "missing_branches": [
+              [
+                17,
+                19
+              ]
+            ],
+            "pytest_passed": true,
+            "pytest_output": ".......                                                                  [100%]\n7 passed in 0.05s"
+          },
+          {
+            "iteration": 7,
+            "test_count": 8,
+            "new_tests": 1,
+            "statement_percent": 100.0,
+            "branch_percent": 100.0,
+            "missing_lines": [],
+            "missing_branches": [],
+            "pytest_passed": true,
+            "pytest_output": "........                                                                 [100%]\n8 passed in 0.06s"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[project]
+name = "coverage-testgen"
+version = "0.1.0"
+description = "Iterative pytest generation driven by statement and branch coverage feedback."
+requires-python = ">=3.11"
+dependencies = [
+    "pytest>=8.0",
+    "coverage>=7.6",
+]
+
+[project.optional-dependencies]
+report = [
+    "python-docx>=1.1",
+    "python-pptx>=1.0",
+    "matplotlib>=3.9",
+]
+
+[project.scripts]
+testgen = "testgen.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
